@@ -1,4 +1,3 @@
-
 # Custom Agent
 
 A custom websearch agent useable with Gimini, Ollama, OpenAI and vLLM.
@@ -9,13 +8,13 @@ A custom websearch agent useable with Gimini, Ollama, OpenAI and vLLM.
    
 #### Setup Ollama Server
 1. **Download Ollama:**
-   Download [https://ollama.com/download](Ollama)
+   Download [Ollama](https://ollama.com/download)
 
 2. **Download an Ollama Model:**
    ```bash
    curl http://localhost:11434/api/pull -d "{\"name\": \"llama3\"}"
    ```
-Ollama[https://github.com/ollama/ollama/blob/main/docs/api.md#list-local-models](API documentionation)
+Ollama [API documentionation](https://github.com/ollama/ollama/blob/main/docs/api.md#list-local-models)
 
 ### Clone and Navigate to the Repository
 1. **Clone the Repo:**
@@ -56,4 +55,4 @@ python agent.py
 Then enter your query.
 
 inspired by
-[https://www.youtube.com/@Data-Centric](Data centric)
+[Data centric](https://www.youtube.com/@Data-Centric)
